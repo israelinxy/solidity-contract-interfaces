@@ -1,16 +1,15 @@
-// Licencia
+// License
 //SPDX-License-Identifier: LGPL-3.0-only
 
-// Version solidity
+// Solidity version 
 pragma solidity 0.8.24;
 
-// Contrato
+// Contract
 contract Result {
     // Variables
     uint256 public result;
 
-    // funciones
-    // palabra reservada (function) + nombre funcion + argumentos + visibilidad + modificador + valor devuelto (returns)
+    // Functions
     function setResultado(uint256 num_) external {
         //asignar resultado a la variable global result
         result = num_;
