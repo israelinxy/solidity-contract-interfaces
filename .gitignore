@@ -1,0 +1,29 @@
+# Remix
+.deps/
+.states/
+artifacts/
+
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Wallets / claves
+*.key
+*.pem
+*.keystore
+keystore/
+wallets/
+secrets/
+
+# Node
+node_modules/
+
+# Sistema / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
